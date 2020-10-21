@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+    - name: add test button
+      shell: add button
+      register: button
